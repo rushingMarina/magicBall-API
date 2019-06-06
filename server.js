@@ -33,7 +33,7 @@ app.use(cors());
 
 
 app.get('/', (req, res) => {
-	res.send(database.users);
+	res.send("it is working :P");
 })
 
 //signin, we using post in order to safly transfer info
